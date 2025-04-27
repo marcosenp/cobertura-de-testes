@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1745791348" lines-covered="30" lines-valid="30" branches-covered="2" branches-valid="2">
+  <sources>
+    <source>/</source>
+  </sources>
+  <packages>
+    <package name="SistemaEstoque" line-rate="1" branch-rate="1" complexity="11">
+      <classes>
+        <class name="SistemaEstoque.Produto" filename="home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/SistemaEstoque.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Preco" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Quantidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Double,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="5" branch="False" />
+                <line number="14" hits="5" branch="False" />
+                <line number="15" hits="5" branch="False" />
+                <line number="16" hits="5" branch="False" />
+                <line number="17" hits="5" branch="False" />
+                <line number="18" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="8" branch="False" />
+            <line number="10" hits="8" branch="False" />
+            <line number="11" hits="7" branch="False" />
+            <line number="13" hits="5" branch="False" />
+            <line number="14" hits="5" branch="False" />
+            <line number="15" hits="5" branch="False" />
+            <line number="16" hits="5" branch="False" />
+            <line number="17" hits="5" branch="False" />
+            <line number="18" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="SistemaEstoque.SistemaEstoque" filename="home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/SistemaEstoque.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="AdicionarProduto" signature="(SistemaEstoque.Produto)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="5" branch="False" />
+                <line number="27" hits="5" branch="False" />
+                <line number="28" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="RemoverProduto" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="3" branch="False" />
+                <line number="33" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="BuscarProdutoPorNome" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="2" branch="False" />
+                <line number="44" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalcularValorTotalEstoque" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="3" branch="False" />
+                <line number="49" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="ListarProdutos" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="2" branch="False" />
+                <line number="53" hits="2" branch="False" />
+                <line number="54" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="5" branch="False" />
+            <line number="27" hits="5" branch="False" />
+            <line number="28" hits="5" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="3" branch="False" />
+            <line number="33" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="2" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="2" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="3" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="52" hits="2" branch="False" />
+            <line number="53" hits="2" branch="False" />
+            <line number="54" hits="2" branch="False" />
+            <line number="23" hits="5" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

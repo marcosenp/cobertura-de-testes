@@ -1,0 +1,11 @@
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/bin/Debug/net8.0/SistemaEstoque.deps.json
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/bin/Debug/net8.0/SistemaEstoque.dll
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/bin/Debug/net8.0/SistemaEstoque.pdb
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/Debug/net8.0/SistemaEstoque.GeneratedMSBuildEditorConfig.editorconfig
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/Debug/net8.0/SistemaEstoque.AssemblyInfoInputs.cache
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/Debug/net8.0/SistemaEstoque.AssemblyInfo.cs
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/Debug/net8.0/SistemaEstoque.csproj.CoreCompileInputs.cache
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/Debug/net8.0/SistemaEstoque.dll
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/Debug/net8.0/refint/SistemaEstoque.dll
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/Debug/net8.0/SistemaEstoque.pdb
+/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/Debug/net8.0/ref/SistemaEstoque.dll

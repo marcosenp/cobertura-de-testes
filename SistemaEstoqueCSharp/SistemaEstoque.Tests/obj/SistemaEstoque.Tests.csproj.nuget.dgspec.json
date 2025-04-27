@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque.Tests/SistemaEstoque.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque.Tests/SistemaEstoque.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque.Tests/SistemaEstoque.Tests.csproj",
+        "projectName": "SistemaEstoque.Tests",
+        "projectPath": "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque.Tests/SistemaEstoque.Tests.csproj",
+        "packagesPath": "/home/mint/.nuget/packages/",
+        "outputPath": "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mint/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/SistemaEstoque.csproj": {
+                "projectPath": "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/SistemaEstoque.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/SistemaEstoque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/SistemaEstoque.csproj",
+        "projectName": "SistemaEstoque",
+        "projectPath": "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/SistemaEstoque.csproj",
+        "packagesPath": "/home/mint/.nuget/packages/",
+        "outputPath": "/home/mint/Área de trabalho/SistemaEstoqueCSharp/SistemaEstoque/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mint/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
